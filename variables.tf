@@ -15,6 +15,14 @@ variable "subnet_name" {
   type = string
   default = "inside-subnet"
 }
+variable "sg_name" {
+  type = string
+  default = "inside-sg"
+}
+variable "sg_id" {
+  type = string
+  default = "sg-079c6c412b0f9a925"
+}
 variable "instance_type" {
   type = string
   default = "t3.medium"
